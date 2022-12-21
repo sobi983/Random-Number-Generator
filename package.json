@@ -1,0 +1,19 @@
+{
+  "name": "random-number-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch Machine_Random.js --exec npx hardhat test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "hardhat": "^2.12.4",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0"
+  }
+}
